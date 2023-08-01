@@ -16,3 +16,18 @@ if(graduated=true && salary>85000){
 }else{
     console.log("Not acceptable")
 }
+
+//multiple conditions
+
+var myMoney=4500;
+var danish=45;
+var toast=20;
+var cha=15;
+
+if(myMoney<danish){
+    console.log("ami danish khabo");
+}else if(myMoney>toast){
+    console.log("Toast khaimu")
+}else {
+    console.log("Sudhu cha khaimu")
+}
