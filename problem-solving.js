@@ -109,7 +109,16 @@ if (80 <= john) {
 }
 
 //problem 4: Display 38 times "Ajk amar mon valo nai"
- var dis="Ajk amar mon valo nai";
- for (dis=0;dis<39;dis++){
-    console.log(dis)
+ var display="something";
+ for (display=0;display<40;display++){
+    // var dis=display[i]
+    console.log(display)
  }
+
+ //Display 58 to 98;
+//  for(var i=58; i<99;i++){
+//     console.log(i);
+//  }
+var i=0;
+for (i=0; i<5; i++){};
+console.log(i);
