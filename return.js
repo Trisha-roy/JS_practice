@@ -27,4 +27,39 @@ function getAverage(assignment1,assignment2,assignment3){
     return mark;
 }
 var averageMark=getAverage(48,51,53);
-console.log(averageMark)
+console.log(averageMark);
+
+function inchToFeet(inches){
+    const feet=inches/12;
+    return feet;
+}
+
+const dadaINcehs=144;
+const dadaFeet=inchToFeet(dadaINcehs);
+console.log(dadaFeet);
+
+//kilometer to miles convert
+function milesToKilometer(miles){
+    const kilometer=miles*1.60934;
+    return kilometer;
+}
+
+const johnDistance=2;
+const totalDistance=milesToKilometer(johnDistance)
+console.log(totalDistance);
+
+//even and odd checking
+
+function isEven(even){
+    const chcekEven=even%2;
+    if(chcekEven===0){
+        return true;
+    }else{
+        return false;
+    }
+}
+const evenNUmber=isEven(2034);
+console.log(evenNUmber);
+
+const oddNum=isEven(3333);
+console.log(oddNum)
