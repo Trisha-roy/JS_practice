@@ -9,3 +9,10 @@ if(jim>dela && jim>chinku){
 }else{
     console.log("Chinku will get the cake")
 }
+//max in array
+function maxInArray(numbers){
+    console.log("array",numbers)
+}
+const heights=[165,197,23,24,124]
+const tallest=maxInArray(heights);
+console.log("Tallest person is : ",tallest)
