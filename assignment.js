@@ -16,11 +16,33 @@ function cubeNumber(number) {
 
 //problem-2
 function matchFinder(string1, string2) {
-    if(string1===string2){
-        return true;
+    
+    if(typeof string1 !=="string" && typeof string2 ==="string" ){
+        return "Please give me some string"
     }else{
-        return false;
+        
+        let doesExist=string1.includes(string2)
+    
+        if(doesExist===doesExist){
+            return true;
+        }else{
+            return false;
+        }
+        
     }
+    
+    // else if{
+    //     const doesExist=string1.includes(string2)
+
+    //     return true;
+    // }
+    // else{
+    //     return false;
+    // }
 }
-const match=matchFinder(("Trish"),("Roy"));
+const match=matchFinder(("John"),("ss"));
 console.log(match)
+
+//problem-3
+function sortMaker(arr) {
+}
