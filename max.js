@@ -11,8 +11,20 @@ if(jim>dela && jim>chinku){
 }
 //max in array
 function maxInArray(numbers){
-    console.log("array",numbers)
+
+    let largest=numbers[0];    
+    for(let i=0;i<numbers.length;i++){
+        
+        const index=i;
+        const element=numbers[index];
+
+        if(element>largest){
+            largest=element;
+        }
+        
+    }
+    return largest;
 }
-const heights=[165,197,23,24,124]
+const heights=[165,197,233,24,124]
 const tallest=maxInArray(heights);
 console.log("Tallest person is : ",tallest)
