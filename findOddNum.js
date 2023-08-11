@@ -13,7 +13,7 @@ function findOddNum(numbers){
         const index=i;
         const element=numbers[index];
         if (element%2 !==0){
-            console.log(index,element)
+            
             oddNum.push(element)
         }
     }
@@ -25,5 +25,5 @@ findOddNum(myNum)
 const odd=findOddNum(myNum)
 console.log(odd)
 
-const oddSum=findOddNum(oddNum)
-console.log(oddSum)
+// const oddSum=findOddNum(oddNum)
+// console.log(oddSum)
