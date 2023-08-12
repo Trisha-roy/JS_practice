@@ -102,7 +102,6 @@ function canPay(changeArray, totalDue) {
     for(let i=0;i<changeArray.length;i++){
         
     }
-
 }
 const myNumbers=[1,3,4];
 const myNumbers2=10;
