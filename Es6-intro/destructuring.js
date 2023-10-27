@@ -9,4 +9,9 @@ console.log(age,person)
 
 //array destructuring
 let [num1,,num3]=[1,2,3] //skip index[1]=2
-console.log(num1,num3)
+console.log(num1,num3);
+
+const numbers=[23,43];
+
+const [x,y]=numbers;
+console.log(x,y)
